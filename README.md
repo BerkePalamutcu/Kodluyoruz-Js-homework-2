@@ -48,5 +48,5 @@ liste.addEventListener('click', function (e) {
   }
 });
 ```
-Burada ise ul'ye event listener ekledik ve eventin hangi classi etkiledigine gore yapacagi islemleri belirledik. 2 ayri event listener ve fonksiyon olusturmak yerine tek event listener icinde 2 farkli fonksyion olusturmayi tercih ettim.
+Burada ise ul'ye event listener ekledik ve eventin hangi classi etkiledigine gore yapacagi islemleri belirledik. Fonksiyonun aldigi e parametresine target methodunu ekledigimizde domda eventin gerceklestigi elementi secmis oluyoruz boylece bubblingden kurtulup parent elementleri etkilemeden direkt eventin gerceklestigi elementi seciyoruz. Eger bunun disinda baska bir alternatifi eventlisterin 3.parametresi olan capture'u secmeyip dogrudan eventlistener icinde kullanirsak parent element de bubblingden dolayi etkilenirdi bunun icin e.target yontemi ile eventin oldugu elementi secmek daha mantikli. 2 ayri event listener ve fonksiyon olusturmak yerine tek event listener icinde 2 farkli fonksyion olusturmayi tercih ettim.
 Hepsi bu kadar umarim yeterince aciklayici olmustur hepinize iyi kodlamalar :)
