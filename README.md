@@ -11,9 +11,7 @@ const liste = document.querySelector('ul');
 Buraya kadar fonksiyon ve event listenerlarda kullacagimiz variable'lari storeladik
 ```JavaScript
 for (let i = 0; i < liste.children.length; i++) {
-  liste.children[
-    i
-  ].innerHTML += `<button style="margin-right: 20px; margin-top:15px"class="close">&times</button></li>`;
+  liste.children[i].innerHTML += `<button style="margin-right: 20px; margin-top:15px"class="close">&times</button></li>`;
 }
 
 ```
