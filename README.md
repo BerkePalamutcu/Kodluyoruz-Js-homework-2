@@ -8,7 +8,7 @@ const newInput = document.querySelector('#task');
 const button = document.querySelector(`.button`);
 const liste = document.querySelector('ul');
 ```
-Buraya kadar fonksyion ve event listenerlarda kullacagimiz variable'lari storeladik
+Buraya kadar fonksiyon ve event listenerlarda kullacagimiz variable'lari storeladik
 ```JavaScript
 for (let i = 0; i < liste.children.length; i++) {
   liste.children[
