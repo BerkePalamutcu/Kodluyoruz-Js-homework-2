@@ -15,7 +15,7 @@ for (let i = 0; i < liste.children.length; i++) {
 }
 
 ```
-Burada ise listeleri kapatmak icin kullacagimiz buttonlari olusturduk ve inline style vererek ortaya gelmelerini sagladik css dosyasini degistirmemize gerek kalmiyor ve for dongusu ile bunlari, ul listesinin butun child elemenlerini secip onlara tek tek atiyoruz
+Burada ise listeleri kapatmak icin kullacagimiz buttonlari olusturduk ve inline style vererek ortaya gelmelerini sagladik css dosyasini degistirmemize gerek kalmiyor ve for dongusu ile bunlari, ul listesinin butun child elemenlerini secip onlara buttonlari ve style ozelliklerini tek tek atiyoruz
 ```JavaScript
 function newElement() {
   if (newInput.value != '') {
