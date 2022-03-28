@@ -2,7 +2,7 @@
 
 Merhaba Patika.dev'deki 2.JS odevinde takilanlar icin boyle ufak bir readme hazirladim. Adim adim kodlari aciklayacagim.
 ---
-Oncelikle [buraya](https://navarcus.github.io/Kodluyoruz-Js-homework-2/) tiklayarak projeyi deneyebilirsiniz.
+Oncelikle [buraya](https://berkepalamutcu.github.io/Kodluyoruz-Js-homework-2/) tiklayarak projeyi deneyebilirsiniz.
 ```JavaScript
 const newInput = document.querySelector('#task');
 const button = document.querySelector(`.button`);
